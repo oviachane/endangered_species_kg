@@ -53,9 +53,11 @@ def create_initial_kb(csv_file, output_ttl):
     print(f"Saved initial Knowledge Base to: {output_ttl}")
 
 if __name__ == "__main__":
-    # Chemins relatifs
-    INPUT_CSV = "data/extracted_knowledge.csv"
-    OUTPUT_TTL = "kg_artifacts/initial_graph.ttl"
+    # Get project root
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    INPUT_CSV = os.path.join(base_dir, "data", "extracted_knowledge.csv")
+    OUTPUT_TTL = os.path.join(base_dir, "kg_artifacts", "initial_graph.ttl")
     
     if os.path.exists(INPUT_CSV):
         create_initial_kb(INPUT_CSV, OUTPUT_TTL)

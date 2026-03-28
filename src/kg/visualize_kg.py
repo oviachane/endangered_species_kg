@@ -46,8 +46,11 @@ def visualize(ttl_file, output_html):
     print("Double-click this HTML file in your file explorer to open it in your browser!")
     
 if __name__ == "__main__":
-    TTL_FILE = "/home/ovia/web_data_project/endangered_species_kg/kg_artifacts/initial_graph.ttl"
-    HTML_FILE = "/home/ovia/web_data_project/endangered_species_kg/kg_artifacts/graph_visual.html"
+    # Get project root
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    TTL_FILE = os.path.join(base_dir, "kg_artifacts", "initial_graph.ttl")
+    HTML_FILE = os.path.join(base_dir, "kg_artifacts", "graph_visual.html")
     
     if os.path.exists(TTL_FILE):
         visualize(TTL_FILE, HTML_FILE)
