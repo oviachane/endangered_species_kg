@@ -1,0 +1,16 @@
+@prefix ex: <http://example.org/endangered/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Entity a owl:Class ; rdfs:label "Entity" .
+ex:Organization a owl:Class ; rdfs:subClassOf ex:Entity ; rdfs:label "Organization" .
+ex:Location a owl:Class ; rdfs:subClassOf ex:Entity ; rdfs:label "Location" .
+ex:Person a owl:Class ; rdfs:subClassOf ex:Entity ; rdfs:label "Person" .
+ex:Date a owl:Class ; rdfs:subClassOf ex:Entity ; rdfs:label "Date" .
+ex:Event a owl:Class ; rdfs:subClassOf ex:Entity ; rdfs:label "Event" .
+ex:Group a owl:Class ; rdfs:subClassOf ex:Entity ; rdfs:label "Group" .
+
+ex:mentionedIn a owl:ObjectProperty ;
+    rdfs:domain ex:Entity ;
+    rdfs:label "mentioned in URL" .

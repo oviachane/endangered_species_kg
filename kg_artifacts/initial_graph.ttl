@@ -1,0 +1,482 @@
+@prefix ex: <http://example.org/endangered/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:1850 a ex:Date ;
+    rdfs:label "1850"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:1950 a ex:Date ;
+    rdfs:label "1950"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:1963 a ex:Date ;
+    rdfs:label "1963"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:1968 a ex:Date ;
+    rdfs:label "1968"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:1975 a ex:Date ;
+    rdfs:label "1975"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:1979 a ex:Date ;
+    rdfs:label "1979"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:1989 a ex:Date ;
+    rdfs:label "1989"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:2007 a ex:Date ;
+    rdfs:label "2007"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:2016 a ex:Date ;
+    rdfs:label "2016"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:2022 a ex:Date ;
+    rdfs:label "2022"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:2030 a ex:Date ;
+    rdfs:label "2030"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:2040s a ex:Date ;
+    rdfs:label "2040s"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:24_million_years a ex:Date ;
+    rdfs:label "24 million years"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:60_years_ago a ex:Date ;
+    rdfs:label "60 years ago"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Ailuridae a ex:Location ;
+    rdfs:label "Ailuridae"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Amami a ex:Location ;
+    rdfs:label "Amami"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:America a ex:Location ;
+    rdfs:label "America"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:Arctic a ex:Location ;
+    rdfs:label "Arctic"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Atlantic a ex:Location ;
+    rdfs:label "Atlantic"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Baja_California a ex:Location ;
+    rdfs:label "Baja California"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Banner a ex:Person ;
+    rdfs:label "Banner"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Belfast a ex:Location ;
+    rdfs:label "Belfast"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:Biological_Reviews a ex:Organization ;
+    rdfs:label "Biological Reviews"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:BirdLife%E2%80%99s a ex:Person ;
+    rdfs:label "BirdLife’s"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:BirdLife_International a ex:Organization ;
+    rdfs:label "BirdLife International"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Cameroon a ex:Location,
+        ex:Organization ;
+    rdfs:label "Cameroon"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/>,
+        <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Caribbean a ex:Location ;
+    rdfs:label "Caribbean"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Costa_Rica a ex:Location ;
+    rdfs:label "Costa Rica"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Couchman a ex:Person ;
+    rdfs:label "Couchman"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:DDT a ex:Organization ;
+    rdfs:label "DDT"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:Daniel_Pincheira-Donoso a ex:Person ;
+    rdfs:label "Daniel Pincheira-Donoso"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:ED a ex:Organization ;
+    rdfs:label "ED"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:EDGE a ex:Organization ;
+    rdfs:label "EDGE"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/>,
+        <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:EDGE_Zones a ex:Organization ;
+    rdfs:label "EDGE Zones"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Earth a ex:Location ;
+    rdfs:label "Earth"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/>,
+        <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/>,
+        <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/>,
+        <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/>,
+        <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Elon_Musk a ex:Person ;
+    rdfs:label "Elon Musk"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Emberiza a ex:Organization ;
+    rdfs:label "Emberiza"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Flickr a ex:Person ;
+    rdfs:label "Flickr"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Florida a ex:Location ;
+    rdfs:label "Florida"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:Forgotten_Wolf a ex:Person ;
+    rdfs:label "Forgotten Wolf"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:GE a ex:Organization ;
+    rdfs:label "GE"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Guadalupe_Island a ex:Location ;
+    rdfs:label "Guadalupe Island"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Habitat a ex:Organization ;
+    rdfs:label "Habitat"^^xsd:string ;
+    ex:mentionedIn <https://www.britannica.com/science/habitat-loss> .
+
+ex:Hispaniola a ex:Organization ;
+    rdfs:label "Hispaniola"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:IUCN a ex:Organization ;
+    rdfs:label "IUCN"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/>,
+        <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Idiomela a ex:Location ;
+    rdfs:label "Idiomela"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Jeff_Bezos a ex:Person ;
+    rdfs:label "Jeff Bezos"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Jeremy_Hance a ex:Person ;
+    rdfs:label "Jeremy Hance"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:Lake_Victoria a ex:Location ;
+    rdfs:label "Lake Victoria"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Larvivora a ex:Person ;
+    rdfs:label "Larvivora"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Lidth%E2%80%99s_jay a ex:Person ;
+    rdfs:label "Lidth’s jay"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Madagascar a ex:Location ;
+    rdfs:label "Madagascar"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/>,
+        <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Mark_Zuckerberg a ex:Person ;
+    rdfs:label "Mark Zuckerberg"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Mauritius a ex:Person ;
+    rdfs:label "Mauritius"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:May a ex:Date ;
+    rdfs:label "May"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:Mediterranean a ex:Location ;
+    rdfs:label "Mediterranean"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Mexico a ex:Location ;
+    rdfs:label "Mexico"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Mongabay a ex:Location,
+        ex:Organization ;
+    rdfs:label "Mongabay"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/>,
+        <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/>,
+        <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Nature_Reviews_Biodiversity a ex:Organization ;
+    rdfs:label "Nature Reviews Biodiversity"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Norway a ex:Location ;
+    rdfs:label "Norway"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:Okinawa_robin a ex:Person ;
+    rdfs:label "Okinawa robin"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Olivia_Couchman a ex:Person ;
+    rdfs:label "Olivia Couchman"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:Paragalago a ex:Organization ;
+    rdfs:label "Paragalago"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:Phocoena a ex:Location ;
+    rdfs:label "Phocoena"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Pincheira-Donoso a ex:Person ;
+    rdfs:label "Pincheira-Donoso"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:Pipins a ex:Organization ;
+    rdfs:label "Pipins"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Platalea a ex:Location ;
+    rdfs:label "Platalea"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Primolius_maracana a ex:Person ;
+    rdfs:label "Primolius maracana"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Queen%E2%80%99s_University a ex:Organization ;
+    rdfs:label "Queen’s University"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+ex:Red_List a ex:Organization ;
+    rdfs:label "Red List"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:Rikki_Gumbs a ex:Person ;
+    rdfs:label "Rikki Gumbs"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Rodrigues a ex:Location,
+        ex:Person ;
+    rdfs:label "Rodrigues"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Rondo a ex:Organization ;
+    rdfs:label "Rondo"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:Sebastian_Pipins a ex:Person ;
+    rdfs:label "Sebastian Pipins"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:Shark_Bay a ex:Location ;
+    rdfs:label "Shark Bay"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Shhhhhh a ex:Person ;
+    rdfs:label "Shhhhhh"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:South_America a ex:Location ;
+    rdfs:label "South America"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Southeast_Asia a ex:Location ;
+    rdfs:label "Southeast Asia"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:Texas a ex:Location ;
+    rdfs:label "Texas"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:The_International_Union_for_Conservation_of_Nature a ex:Organization ;
+    rdfs:label "The International Union for Conservation of Nature"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:Today a ex:Date ;
+    rdfs:label "Today"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:Two_centuries_ago a ex:Date ;
+    rdfs:label "Two centuries ago"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/> .
+
+<http://example.org/endangered/U.K.> a ex:Location ;
+    rdfs:label "U.K."^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+<http://example.org/endangered/U.S.> a ex:Location ;
+    rdfs:label "U.S."^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:Vikash_Tatayah a ex:Person ;
+    rdfs:label "Vikash Tatayah"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:Yellowstone a ex:Location ;
+    rdfs:label "Yellowstone"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:abrupt_jumps a ex:Person ;
+    rdfs:label "abrupt jumps"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:annually a ex:Date ;
+    rdfs:label "annually"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:bald_eagles a ex:Person ;
+    rdfs:label "bald eagles"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:bush a ex:Person ;
+    rdfs:label "bush"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:early_this_century a ex:Date ;
+    rdfs:label "early this century"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:habitat a ex:Organization ;
+    rdfs:label "habitat"^^xsd:string ;
+    ex:mentionedIn <https://www.britannica.com/science/habitat-loss> .
+
+ex:more_than_50_years a ex:Date ;
+    rdfs:label "more than 50 years"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:n%E2%80%99t a ex:Location ;
+    rdfs:label "n’t"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:pandas a ex:Organization ;
+    rdfs:label "pandas"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:the_1960s a ex:Date ;
+    rdfs:label "the 1960s"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:the_19th_century a ex:Date ;
+    rdfs:label "the 19th century"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:the_2030s a ex:Date ;
+    rdfs:label "the 2030s"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:the_2050s a ex:Date ;
+    rdfs:label "the 2050s"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:the_IUCN_Red_List a ex:Organization ;
+    rdfs:label "the IUCN Red List"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/>,
+        <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/>,
+        <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/>,
+        <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/>,
+        <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:the_Imperial_College_London a ex:Organization ;
+    rdfs:label "the Imperial College London"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2024/09/just-0-7-of-land-hosts-one-third-of-unique-endangered-species-study/> .
+
+ex:the_Indian_Ocean a ex:Location ;
+    rdfs:label "the Indian Ocean"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:the_Mauritian_Wildlife_Foundation a ex:Organization ;
+    rdfs:label "the Mauritian Wildlife Foundation"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/short-article/2025/10/20-animal-species-on-the-road-to-recovery-iucn-red-list-update/> .
+
+ex:the_Norwegian_University_of_Science_and_Technology a ex:Organization ;
+    rdfs:label "the Norwegian University of Science and Technology"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:the_Red_List a ex:Organization ;
+    rdfs:label "the Red List"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:the_Red_List_of_Threatened_Species a ex:Organization ;
+    rdfs:label "the Red List of Threatened Species"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/thousands-more-species-at-risk-of-extinction-than-currently-recorded-suggests-new-study-188243> .
+
+ex:the_U.S._Endangered_Species_Act a ex:Organization ;
+    rdfs:label "the U.S. Endangered Species Act"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:the_Zoological_Society_of_London%E2%80%99s a ex:Organization ;
+    rdfs:label "the Zoological Society of London’s"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2020/08/why-are-some-endangered-species-ignored/> .
+
+ex:the_Zoological_Society_of_London%E2%80%99s_Institute_of_Zoology a ex:Organization ;
+    rdfs:label "the Zoological Society of London’s Institute of Zoology"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:the_mid-20th_century a ex:Date ;
+    rdfs:label "the mid-20th century"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:the_next_10_years a ex:Date ;
+    rdfs:label "the next 10 years"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2025/07/more-than-10000-species-on-brink-of-extinction-need-urgent-action-study/> .
+
+ex:the_next_decade a ex:Date ;
+    rdfs:label "the next decade"^^xsd:string ;
+    ex:mentionedIn <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:this_century a ex:Date ;
+    rdfs:label "this century"^^xsd:string ;
+    ex:mentionedIn <https://news.mongabay.com/2023/06/global-study-of-71000-animal-species-finds-48-are-declining/>,
+        <https://theconversation.com/climate-change-could-cause-abrupt-biodiversity-losses-this-century-135968> .
+
+ex:today a ex:Date ;
+    rdfs:label "today"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
+ex:wolf a ex:Person ;
+    rdfs:label "wolf"^^xsd:string ;
+    ex:mentionedIn <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Understanding-Conservation/endangered-species-success-stories> .
+
