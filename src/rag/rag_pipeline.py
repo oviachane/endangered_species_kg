@@ -10,7 +10,7 @@ import json
 base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 TTL_FILE = os.path.join(base_dir, "kg_artifacts", "graph_unified.ttl")
 OLLAMA_URL = "http://localhost:11434/api/generate" 
-MODEL = "llama3.2" # Modèle de Facebook (Llama) beaucoup plus intelligent en programmation que Gemma!
+MODEL = "llama3.2" 
 
 MAX_PREDICATES = 80 
 MAX_CLASSES = 40 
