@@ -69,7 +69,7 @@ def run_tsne_visualization(model, tf, output_path):
     else:
         sampled_embeddings = all_embeddings
 
-    tsne = TSNE(n_components=2, perplexity=30, n_iter=300, random_state=42)
+    tsne = TSNE(n_components=2, perplexity=30, max_iter=300, random_state=42)
     embeddings_2d = tsne.fit_transform(sampled_embeddings)
 
     plt.figure(figsize=(12, 8))

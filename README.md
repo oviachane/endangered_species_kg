@@ -1,6 +1,9 @@
 # 🌿 Endangered Species Knowledge Graph & RAG Pipeline 🤖
 
-A multi-phase Semantic Web ecosystem for **Automated Biodiversity Knowledge Discovery**. This system transforms unstructured environmental news into a logic-certified Knowledge Graph (53,000+ triplets), enriched via Wikidata, and queryable through a local LLM-powered RAG agent with SPARQL self-repair.
+[![Project Status](https://img.shields.io/badge/Project%20Status-Submission--Ready-success.svg)](https://github.com/oviachane/endangered_species_kg)
+[![Academic Year](https://img.shields.io/badge/Academic%20Year-2024--2025-blue.svg)](https://www.u-paris.fr/)
+
+This repository contains the complete implementation for the **Semantic Web & Knowledge Discovery** final project. It features an end-to-end automated pipeline transforming unstructured conservation news into a verified, reasoned, and queryable Knowledge Graph.
 
 ---
 
@@ -8,17 +11,17 @@ A multi-phase Semantic Web ecosystem for **Automated Biodiversity Knowledge Disc
 
 ```mermaid
 graph TD
-    A[Web Sources: WWF/Mongabay] -->|httpx / trafilatura| B(Phase 1: NER Extraction)
-    B -->|rdflib| C(Phase 2: Initial KG Construction)
+    A[Web: WWF/Mongabay] -->|Crawl & IE| B(Phase 1: Named Entity Recognition)
+    B -->|RDFlib| C(Phase 2: Graph Build & Wikidata Expansion)
     C -->|SPARQL 2-Hop| D{Wikidata Alignment}
     D -->|TTL| E(Phase 3: SWRL Reasoning)
     E -->|RDF/OWL| F[Unified Knowledge Graph]
     F -->|PyKEEN| G(Phase 4: KGE Embeddings)
     F -->|Ollama / Llama 3.2| H(Phase 5: SPARQL-RAG Agent)
-    H -->|Natural Language| I[User Interface]
+    H -->|Self-Repair| I[Final Natural Language Answer]
 ```
 
-
+---
 
 ## 🚀 Installation & Usage
 
@@ -53,25 +56,19 @@ Follow the sequence below to rebuild the ecosystem:
 - **Reasoning Materialization**: Inferred relations stored in `graph_unified.ttl`.
 - **KGE Reproducibility**: Dataset splits located in `data/kge_splits/`.
 
-### 🛡️ Key Innovations
-- **Self-Repair SPARQL Loop**: Intercepts LLM hallucinations and forces 100% syntactical accuracy.
-- **2-Hop BFS Expansion**: Strategically scales the domain knowledge from 300 to 53,000 facts.
-- **Privacy-First RAG**: No data ever leaves your machine; fully local Llama-3.2 inference.
-
 ---
 
----
-
+## 📸 Project Showcase
 
 ### RAG Agent SPARQL Self-Repair
 ![RAG Screenshot](rag.png)
 *Figure: The system successfully translating "Find subjects that are Habitat" into a SPARQL query and correcting itself after a syntax error.*
 
-
+### Embedding Latent Space (t-SNE)
+![t-SNE Embeddings](kg_artifacts/embeddings_tsne.png)
+*Figure: t-SNE clustering of the 50,000-triplet Knowledge Graph embeddings.*
 
 ---
-
-
 
 *Project developed for the **Semantic Web & Web Data** Final Project (2025-2026).*
 *Timothée JOLIOT & Ovia CHANEMOUGANANDAM*
