@@ -1,2 +1,21 @@
+# Web Crawling & extraction
 httpx
 trafilatura
+spacy
+
+# Semantic Web & Knowledge Graph
+rdflib
+owlready2
+
+# AI / Knowledge Graph Embeddings (KGE)
+pykeen
+torch
+pandas
+numpy
+
+# Visualization & Statistical Analysis
+scikit-learn
+matplotlib
+
+# RAG & API Communication
+requests
