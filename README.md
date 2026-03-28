@@ -1,7 +1,5 @@
-# 🌿 Endangered Species Knowledge Graph & RAG Pipeline 🤖
+# Endangered Species Knowledge Graph & RAG Pipeline 🤖
 
-[![Project Status](https://img.shields.io/badge/Project%20Status-Submission--Ready-success.svg)](https://github.com/oviachane/endangered_species_kg)
-[![Academic Year](https://img.shields.io/badge/Academic%20Year-2024--2025-blue.svg)](https://www.u-paris.fr/)
 
 This repository contains the complete implementation for the **Semantic Web & Knowledge Discovery** final project. It features an end-to-end automated pipeline transforming unstructured conservation news into a verified, reasoned, and queryable Knowledge Graph.
 
@@ -62,11 +60,10 @@ Follow the sequence below to rebuild the ecosystem:
 
 ### RAG Agent SPARQL Self-Repair
 ![RAG Screenshot](rag.png)
-*Figure: The system successfully translating "Find subjects that are Habitat" into a SPARQL query and correcting itself after a syntax error.*
 
 ### Embedding Latent Space (t-SNE)
 ![t-SNE Embeddings](kg_artifacts/embeddings_tsne.png)
-*Figure: t-SNE clustering of the 50,000-triplet Knowledge Graph embeddings.*
+
 
 ---
 
