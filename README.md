@@ -1,9 +1,5 @@
 # 🌿 Endangered Species Knowledge Graph & RAG Pipeline 🤖
 
-[![Project Status](https://img.shields.io/badge/Project%20Status-Submission%20Ready-success.svg)](https://github.com/oviachane/endangered_species_kg)
-[![License](https://img.shields.io/badge/License-Academic-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-
 A multi-phase Semantic Web ecosystem for **Automated Biodiversity Knowledge Discovery**. This system transforms unstructured environmental news into a logic-certified Knowledge Graph (53,000+ triplets), enriched via Wikidata, and queryable through a local LLM-powered RAG agent with SPARQL self-repair.
 
 ---
@@ -22,37 +18,7 @@ graph TD
     H -->|Natural Language| I[User Interface]
 ```
 
----
 
-## 📸 Project Showcase (Screenshots Needed)
-
-> [!IMPORTANT]
-> To finalize the documentation, please replace the placeholders below with the requested screenshots.
-
-### 1. Knowledge Graph Visualization
-![Graph Visualization Placeholder](path/to/your/graph_viz.png)
-*Visualizing the 53,000-triplet semantic space using the interactive HTML explorer.*
-
-### 2. RAG Agent in Action (Self-Repair)
-![RAG Demo Placeholder](path/to/your/rag_demo.png)
-*The system successfully translating "Find subjects that are Habitat" into a SPARQL query and correcting itself after a syntax error.*
-
-### 3. KGE Performance Metrics
-![KGE Metrics Placeholder](path/to/your/kge_metrics.png)
-*Comparative training results for TransE vs ComplEx models using PyKEEN.*
-
-### 4. Semantic Learning (KGE Analysis)
-The system learns latent relationships between entities even without explicit rules. Using the `Nearest Neighbors` tool, we can observe the model's "common sense":
-
-- **Target: Giant Panda (wd:Q242)** 🎋
-  - ✅ 近隣 (Similarity: 0.52): *Republic of China* (Native Region)
-  - ✅ 近隣 (Similarity: 0.52): *Animal Habitat* (Ontological Context)
-  - ✅ 近隣 (Similarity: 0.51): *List of Endangered Species* (Correct Taxonomic Status!)
-
-- **Target: China (wd:Q148)** 🌏
-  - ✅ 近隣 (Similarity: 0.49): *State in Asia* (Geographic Reality)
-
----
 
 ## 🚀 Installation & Usage
 
@@ -80,7 +46,7 @@ Follow the sequence below to rebuild the ecosystem:
 
 ---
 
-## 📊 Technical Specifications (Submission Ready)
+## 📊 Technical Specifications 
 
 - **KB Statistics**: [kb_statistics.json](kg_artifacts/kb_statistics.json) (Triplets, Entities, Predicates).
 - **Core Ontology**: [ontology.ttl](kg_artifacts/ontology.ttl) (Formal class definitions).
@@ -93,6 +59,19 @@ Follow the sequence below to rebuild the ecosystem:
 - **Privacy-First RAG**: No data ever leaves your machine; fully local Llama-3.2 inference.
 
 ---
+
+---
+
+
+### RAG Agent SPARQL Self-Repair
+![RAG Screenshot](rag.png)
+*Figure: The system successfully translating "Find subjects that are Habitat" into a SPARQL query and correcting itself after a syntax error.*
+
+
+
+---
+
+
 
 *Project developed for the **Semantic Web & Web Data** University Final Project (2025-2026).*
 *Timothée JOLIOT & Ovia CHANEMOUGANANDAM*
