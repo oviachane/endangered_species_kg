@@ -73,5 +73,5 @@ Follow the sequence below to rebuild the ecosystem:
 
 
 
-*Project developed for the **Semantic Web & Web Data** University Final Project (2025-2026).*
+*Project developed for the **Semantic Web & Web Data** Final Project (2025-2026).*
 *Timothée JOLIOT & Ovia CHANEMOUGANANDAM*
