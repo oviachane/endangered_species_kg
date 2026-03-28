@@ -55,9 +55,11 @@ def extract_entities(input_file, output_file):
 
 
 if __name__ == "__main__":
-    # Chemins relatifs
-    INPUT_FILE = "data/crawler_output.jsonl"
-    OUTPUT_FILE = "data/extracted_knowledge.csv"
+    # Get project root
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    INPUT_FILE = os.path.join(base_dir, "data", "crawler_output.jsonl")
+    OUTPUT_FILE = os.path.join(base_dir, "data", "extracted_knowledge.csv")
     
     if os.path.exists(INPUT_FILE):
         extract_entities(INPUT_FILE, OUTPUT_FILE)

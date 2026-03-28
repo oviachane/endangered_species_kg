@@ -69,6 +69,8 @@ def crawl_and_filter(urls, output_file, min_words=400):
 
 
 if __name__ == "__main__":
-    # Chemin relatif
-    output_path = "data/crawler_output.jsonl"
+    # Get project root
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    output_path = os.path.join(base_dir, "data", "crawler_output.jsonl")
     crawl_and_filter(urls, output_path)
