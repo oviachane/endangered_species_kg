@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/endangered_inference.owl"
+         xmlns="http://example.org/endangered_inference.owl#"
+         xmlns:swrl="http://www.w3.org/2003/11/swrl#">
+
+<owl:Ontology rdf:about="http://example.org/endangered_inference.owl"/>
+
+<owl:Class rdf:about="#Entity">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Location">
+  <rdfs:subClassOf rdf:resource="#Entity"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Habitat">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<Location rdf:about="#Ailuridae">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Amami">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#America">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Arctic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Atlantic">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Baja_California">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Belfast">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Cameroon">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Caribbean">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Costa_Rica">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Earth">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Florida">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Guadalupe_Island">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Idiomela">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Lake_Victoria">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Madagascar">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Mediterranean">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Mexico">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Mongabay">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Norway">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Phocoena">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Platalea">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Rodrigues">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Shark_Bay">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#South_America">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Southeast_Asia">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Texas">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#U.K.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#U.S.">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#Yellowstone">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#n%E2%80%99t">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<Location rdf:about="#the_Indian_Ocean">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Location>
+
+<swrl:Variable rdf:about="urn:swrl#x"/>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#Location"/>
+          <swrl:argument1 rdf:resource="urn:swrl#x"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#Habitat"/>
+          <swrl:argument1 rdf:resource="urn:swrl#x"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+
+</rdf:RDF>
