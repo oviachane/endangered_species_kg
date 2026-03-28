@@ -1,0 +1,192 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.org/endangered/1850> owl:sameAs <http://www.wikidata.org/entity/Q7653> .
+
+<http://example.org/endangered/1950> owl:sameAs <http://www.wikidata.org/entity/Q18597> .
+
+<http://example.org/endangered/1963> owl:sameAs <http://www.wikidata.org/entity/Q2755> .
+
+<http://example.org/endangered/1968> owl:sameAs <http://www.wikidata.org/entity/Q2644> .
+
+<http://example.org/endangered/1975> owl:sameAs <http://www.wikidata.org/entity/Q2479> .
+
+<http://example.org/endangered/1979> owl:sameAs <http://www.wikidata.org/entity/Q2484> .
+
+<http://example.org/endangered/1989> owl:sameAs <http://www.wikidata.org/entity/Q17544553> .
+
+<http://example.org/endangered/2007> owl:sameAs <http://www.wikidata.org/entity/Q2024> .
+
+<http://example.org/endangered/2016> owl:sameAs <http://www.wikidata.org/entity/Q25245> .
+
+<http://example.org/endangered/2022> owl:sameAs <http://www.wikidata.org/entity/Q49625> .
+
+<http://example.org/endangered/2030> owl:sameAs <http://www.wikidata.org/entity/Q19241654> .
+
+<http://example.org/endangered/2040s> owl:sameAs <http://www.wikidata.org/entity/Q651007> .
+
+<http://example.org/endangered/60_years_ago> owl:sameAs <http://www.wikidata.org/entity/Q41702211> .
+
+<http://example.org/endangered/Ailuridae> owl:sameAs <http://www.wikidata.org/entity/Q902901> .
+
+<http://example.org/endangered/Amami> owl:sameAs <http://www.wikidata.org/entity/Q453510> .
+
+<http://example.org/endangered/America> owl:sameAs <http://www.wikidata.org/entity/Q30> .
+
+<http://example.org/endangered/Arctic> owl:sameAs <http://www.wikidata.org/entity/Q25322> .
+
+<http://example.org/endangered/Atlantic> owl:sameAs <http://www.wikidata.org/entity/Q97> .
+
+<http://example.org/endangered/Baja_California> owl:sameAs <http://www.wikidata.org/entity/Q58731> .
+
+<http://example.org/endangered/Banner> owl:sameAs <http://www.wikidata.org/entity/Q16479802> .
+
+<http://example.org/endangered/Belfast> owl:sameAs <http://www.wikidata.org/entity/Q10686> .
+
+<http://example.org/endangered/Biological_Reviews> owl:sameAs <http://www.wikidata.org/entity/Q2500948> .
+
+<http://example.org/endangered/BirdLife%E2%80%99s> owl:sameAs <http://www.wikidata.org/entity/Q4915830> .
+
+<http://example.org/endangered/BirdLife_International> owl:sameAs <http://www.wikidata.org/entity/Q210108> .
+
+<http://example.org/endangered/Cameroon> owl:sameAs <http://www.wikidata.org/entity/Q1009> .
+
+<http://example.org/endangered/Caribbean> owl:sameAs <http://www.wikidata.org/entity/Q1247> .
+
+<http://example.org/endangered/Costa_Rica> owl:sameAs <http://www.wikidata.org/entity/Q800> .
+
+<http://example.org/endangered/Couchman> owl:sameAs <http://www.wikidata.org/entity/Q37093931> .
+
+<http://example.org/endangered/DDT> owl:sameAs <http://www.wikidata.org/entity/Q163648> .
+
+<http://example.org/endangered/Daniel_Pincheira-Donoso> owl:sameAs <http://www.wikidata.org/entity/Q87667026> .
+
+<http://example.org/endangered/ED> owl:sameAs <http://www.wikidata.org/entity/Q1282258> .
+
+<http://example.org/endangered/EDGE> owl:sameAs <http://www.wikidata.org/entity/Q16869767> .
+
+<http://example.org/endangered/Earth> owl:sameAs <http://www.wikidata.org/entity/Q2> .
+
+<http://example.org/endangered/Elon_Musk> owl:sameAs <http://www.wikidata.org/entity/Q317521> .
+
+<http://example.org/endangered/Emberiza> owl:sameAs <http://www.wikidata.org/entity/Q614481> .
+
+<http://example.org/endangered/Flickr> owl:sameAs <http://www.wikidata.org/entity/Q103204> .
+
+<http://example.org/endangered/Florida> owl:sameAs <http://www.wikidata.org/entity/Q812> .
+
+<http://example.org/endangered/Forgotten_Wolf> owl:sameAs <http://www.wikidata.org/entity/Q56817241> .
+
+<http://example.org/endangered/GE> owl:sameAs <http://www.wikidata.org/entity/Q230> .
+
+<http://example.org/endangered/Guadalupe_Island> owl:sameAs <http://www.wikidata.org/entity/Q853909> .
+
+<http://example.org/endangered/Habitat> owl:sameAs <http://www.wikidata.org/entity/Q52105> .
+
+<http://example.org/endangered/Hispaniola> owl:sameAs <http://www.wikidata.org/entity/Q25277> .
+
+<http://example.org/endangered/IUCN> owl:sameAs <http://www.wikidata.org/entity/Q48268> .
+
+<http://example.org/endangered/Idiomela> owl:sameAs <http://www.wikidata.org/entity/Q5988841> .
+
+<http://example.org/endangered/Jeff_Bezos> owl:sameAs <http://www.wikidata.org/entity/Q312556> .
+
+<http://example.org/endangered/Lake_Victoria> owl:sameAs <http://www.wikidata.org/entity/Q5505> .
+
+<http://example.org/endangered/Larvivora> owl:sameAs <http://www.wikidata.org/entity/Q10784792> .
+
+<http://example.org/endangered/Lidth%E2%80%99s_jay> owl:sameAs <http://www.wikidata.org/entity/Q715227> .
+
+<http://example.org/endangered/Madagascar> owl:sameAs <http://www.wikidata.org/entity/Q1019> .
+
+<http://example.org/endangered/Mark_Zuckerberg> owl:sameAs <http://www.wikidata.org/entity/Q36215> .
+
+<http://example.org/endangered/Mauritius> owl:sameAs <http://www.wikidata.org/entity/Q1027> .
+
+<http://example.org/endangered/May> owl:sameAs <http://www.wikidata.org/entity/Q1751954> .
+
+<http://example.org/endangered/Mediterranean> owl:sameAs <http://www.wikidata.org/entity/Q4918> .
+
+<http://example.org/endangered/Mexico> owl:sameAs <http://www.wikidata.org/entity/Q96> .
+
+<http://example.org/endangered/Mongabay> owl:sameAs <http://www.wikidata.org/entity/Q1944430> .
+
+<http://example.org/endangered/Norway> owl:sameAs <http://www.wikidata.org/entity/Q20> .
+
+<http://example.org/endangered/Okinawa_robin> owl:sameAs <http://www.wikidata.org/entity/Q31874705> .
+
+<http://example.org/endangered/Paragalago> owl:sameAs <http://www.wikidata.org/entity/Q31837388> .
+
+<http://example.org/endangered/Phocoena> owl:sameAs <http://www.wikidata.org/entity/Q135955> .
+
+<http://example.org/endangered/Pipins> owl:sameAs <http://www.wikidata.org/entity/Q15058754> .
+
+<http://example.org/endangered/Platalea> owl:sameAs <http://www.wikidata.org/entity/Q208488> .
+
+<http://example.org/endangered/Primolius_maracana> owl:sameAs <http://www.wikidata.org/entity/Q1164807> .
+
+<http://example.org/endangered/Queen%E2%80%99s_University> owl:sameAs <http://www.wikidata.org/entity/Q1420038> .
+
+<http://example.org/endangered/Red_List> owl:sameAs <http://www.wikidata.org/entity/Q32059> .
+
+<http://example.org/endangered/Rikki_Gumbs> owl:sameAs <http://www.wikidata.org/entity/Q88329617> .
+
+<http://example.org/endangered/Rodrigues> owl:sameAs <http://www.wikidata.org/entity/Q61740902> .
+
+<http://example.org/endangered/Rondo> owl:sameAs <http://www.wikidata.org/entity/Q10656755> .
+
+<http://example.org/endangered/Shark_Bay> owl:sameAs <http://www.wikidata.org/entity/Q217487> .
+
+<http://example.org/endangered/Shhhhhh> owl:sameAs <http://www.wikidata.org/entity/Q90159417> .
+
+<http://example.org/endangered/South_America> owl:sameAs <http://www.wikidata.org/entity/Q18> .
+
+<http://example.org/endangered/Southeast_Asia> owl:sameAs <http://www.wikidata.org/entity/Q11708> .
+
+<http://example.org/endangered/Texas> owl:sameAs <http://www.wikidata.org/entity/Q1439> .
+
+<http://example.org/endangered/The_International_Union_for_Conservation_of_Nature> owl:sameAs <http://www.wikidata.org/entity/Q114565006> .
+
+<http://example.org/endangered/Today> owl:sameAs <http://www.wikidata.org/entity/Q3530234> .
+
+<http://example.org/endangered/U.K.> owl:sameAs <http://www.wikidata.org/entity/Q145> .
+
+<http://example.org/endangered/U.S.> owl:sameAs <http://www.wikidata.org/entity/Q30> .
+
+<http://example.org/endangered/Vikash_Tatayah> owl:sameAs <http://www.wikidata.org/entity/Q124032394> .
+
+<http://example.org/endangered/Yellowstone> owl:sameAs <http://www.wikidata.org/entity/Q351> .
+
+<http://example.org/endangered/annually> owl:sameAs <http://www.wikidata.org/entity/Q33255661> .
+
+<http://example.org/endangered/bald_eagles> owl:sameAs <http://www.wikidata.org/entity/Q67697583> .
+
+<http://example.org/endangered/bush> owl:sameAs <http://www.wikidata.org/entity/Q1484464> .
+
+<http://example.org/endangered/habitat> owl:sameAs <http://www.wikidata.org/entity/Q52105> .
+
+<http://example.org/endangered/more_than_50_years> owl:sameAs <http://www.wikidata.org/entity/Q41697726> .
+
+<http://example.org/endangered/n%E2%80%99t> owl:sameAs <http://www.wikidata.org/entity/Q422658> .
+
+<http://example.org/endangered/pandas> owl:sameAs <http://www.wikidata.org/entity/Q15967387> .
+
+<http://example.org/endangered/the_1960s> owl:sameAs <http://www.wikidata.org/entity/Q135798633> .
+
+<http://example.org/endangered/the_19th_century> owl:sameAs <http://www.wikidata.org/entity/Q122382096> .
+
+<http://example.org/endangered/the_IUCN_Red_List> owl:sameAs <http://www.wikidata.org/entity/Q115962546> .
+
+<http://example.org/endangered/the_Indian_Ocean> owl:sameAs <http://www.wikidata.org/entity/Q934347> .
+
+<http://example.org/endangered/the_Red_List> owl:sameAs <http://www.wikidata.org/entity/Q132518345> .
+
+<http://example.org/endangered/the_next_10_years> owl:sameAs <http://www.wikidata.org/entity/Q61830815> .
+
+<http://example.org/endangered/the_next_decade> owl:sameAs <http://www.wikidata.org/entity/Q5975757> .
+
+<http://example.org/endangered/this_century> owl:sameAs <http://www.wikidata.org/entity/Q3524725> .
+
+<http://example.org/endangered/today> owl:sameAs <http://www.wikidata.org/entity/Q3530234> .
+
+<http://example.org/endangered/wolf> owl:sameAs <http://www.wikidata.org/entity/Q16093204> .
+
